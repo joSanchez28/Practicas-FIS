@@ -1,0 +1,48 @@
+# Practica 1. Ingeniería de requisitos. Lista inicial de requisitos
+
+<!---
+Partiendo de la descripción inicial del problema que se acaba de dar, se realizarán
+las siguientes actividades:
+1. Estudio del dominio del problema y descripción general del sistema.
+2. Obtención de una lista estructurada de requisitos.
+3. Glosario de términos.
+-->
+
+# 1. Descripción general del sistema
+
+<!---
+Se trata de un sistema software para la gestión de un centro médico
+privado. El centro debe proporcionar atención médica completa a sus abonados,
+incluyendo servicios de atención básica (consulta de médico de familia, farmacia,
+consulta de enfermería, gestión de tratamientos de larga duración, …), atención
+especializada (consulta de médicos especialistas, realización de pruebas médicas),
+servicio de urgencias, …
+El sistema debe encargarse de la gestión de los enfermos, los médicos, y las
+instalaciones existentes tanto a nivel médico como administrativo (control de los
+abonados, empleados, …)
+Entre otras funciones se debe permitir gestionar, como mínimo:
+
+Gestión de enfermos y médicos.
+Control de citas.
+Gestión de pruebas médicas.
+Gestión de instalaciones y aparatos de prueba médica.
+Control de tratamientos.
+
+Definir actores y funcionalidades.
+-->
+
+
+
+
+<!---Atención báscica:
+        - consulta de médico de familia
+        - farmacia
+        - consulta  de  enfermería
+        - gestión  de tratamientos  de  larga  duración
+        - ...
+     Atención especializada:
+        - consulta de médicos especialistas
+        - realización de pruebas médicas)
+        - servicio de urgencias
+        - ...
+-->
