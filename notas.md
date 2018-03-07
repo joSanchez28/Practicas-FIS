@@ -1,0 +1,71 @@
+## Actores
+- Pacientes
+- Médicos
+- Enfermeros
+- Auxiliares
+- Celadores
+- Fisioterapeutas
+- Personal de mantenimiento
+
+## Funcionalidades
+- Gestión de citas
+- Gestión de medicación
+- Historial del paciente
+  - Historial médico
+  - Incidencias médicas (diario)
+  - Valoración (ingreso, alta, muerte...)
+- Incidencias técnicas
+- Gestión de dietas
+- Gráfica de constantes
+- Agenda del trabajador
+- Gestión de turnos de trabajadores
+- Gestión de pruebas
+  - Prueba de imagen (resonancia, radiografía, ecografía, gastroscopia, colonoscopia...)
+  - Espirometría
+  - Extracciones y vacunas
+  - Electrocardiograma
+  - Recogida de muestras (orina, frotis...)
+
+## Términos
+- Actores
+  - Pacientes
+  - Médicos
+  - Enfermeros
+  - Auxiliares
+  - Celadores
+  - Fisioterapeutas
+  - Personal de mantenimiento
+  - Ingreso
+- Valoración
+  - Alta
+  - Exitus
+  - Cita
+- Vías de administración
+  - Oral
+  - Intravenosa
+  - Subcutánea
+  - Intramuscular
+  - Intradérmica
+  - Ótica
+  - Oftálmica
+  - Rectal
+  - Dérmica
+  - Vaginal
+  - Inhalatoria
+  - Nasal
+- Historial médico
+  - Antecedentes
+  - Enfermedad
+  - Intervención quirúrgica
+- Gráfica de constantes
+  - Tensión arterial
+  - Frecuencia cardiaca
+  - Saturación de oxígeno
+  - Glucemia
+  - Temperatura corporal
+- Gestión de pruebas
+  - Prueba de imagen (resonancia, radiografía, ecografía, gastroscopia, colonoscopia...)
+  - Espirometría
+  - Extracciones y vacunas
+  - Electrocardiograma
+  - Recogida de muestras (orina, frotis...)
