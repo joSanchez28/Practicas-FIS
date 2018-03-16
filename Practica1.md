@@ -50,7 +50,7 @@ A modo de resumen, los principales objetivos que se pretenden alcanzar con el pr
 
 Los usuarios del producto a desarrollar son varios: paciente, médico, enfermero, auxiliar, celador, fisioterapeuta, personal de mantenimiento y personal administrativo. Su nivel cultural es medio-alto y tienen algo de experiencia en el uso de aplicaciones informáticas pero bastante experiencia en el negocio.
 
-- ** Resumen de los implicados **
+- **Resumen de los implicados**
 
 | Usuario | Descripción | Tipo | Responsabilidad |
 | ------- | ----------- | ---- | --------------- |
@@ -63,12 +63,14 @@ Los usuarios del producto a desarrollar son varios: paciente, médico, enfermero
 | Personal de mantenimiento | Representa un proveedor o un técnico | Usuario sistema | Realiza reparaciones y/o revisiones técnicas, suministra materiales. |
 | Personal administrativos | Representa un administrativo | Usuario producto | Se encarga del gestión de recursos y/o materiales
 
-- ** Principales necesidades de los implicados **
+- **Principales necesidades de los implicados**
 
 | Necesidad | Prioridad | Problema | Solución actual | Solución propuesta |
 | --------- | --------- | -------- | --------------- | ------------------ |
-| Gestión de citas | Alta | Tenemos que mantener la información en la base de datos sin errores | Registro llevado en papel | Ofrecer un registro informatizado completo |
-| Mantener información respecto a los pacientes | Alta | Tenemos que constituir una base de datos completa y detallada del estado e historial de cada paciente | Información situada en un único lugar en formato físico, muy vulnerable. | Información muy actualizada con fácil acceso y posibilidad de recuperación de datos con copias de seguridad e información distribuida.|
+| Gestión de citas | Alta | Tenemos que mantener la información en la base de datos sin errores así como ofertar la posibilidad de gestionar citas. | Registro llevado en papel | Ofrecer un registro informatizado completo |
+| Registro de pacientes | Alta | Tenemos que constituir una base de datos completa y detallada del estado e historial de cada paciente que pueda ser modificada con facilidad por el personal sanitario. | Información situada en un único lugar en formato físico, muy vulnerable además de restrictiva a la hora de modificar la información. | Información muy actualizada con fácil acceso y posibilidad de recuperación de datos con copias de seguridad e información distribuida.|
+| Registro y gestión de personal | Media | Tenemos que crear y mantener registros sobre los turnos, especialidad o función así como su información administrativa del personal que facilite y optimice la organización de los mismos. | Información no disponible o registrada en papel por el propio personal. | Registro informatizado disponible desde cualquier dispositivo inteligente con posibilidad de modificar el registro.  Información actualizada con fácil acceso y protección de datos. |
+| Registro y gestión de los recursos y/o materiales | Media | Tenemos que crear y mantener actualizados registros sobre el material y recursos del hospital, que facilite su gestión y mediante el cual se puedan hacer pedidos o solicitudes de material y/o reparaciones. | Información registrada en libros de administración con control de registros en agendas o calendarios físicos. Muy vulnerables y sin facilidad de acceso a la información. | Registro informatizado disponible desde cualquier dispositivo inteligente con posibilidad de modificar el registro además de crear nuevos recordatorios y hacer solicitudes. Información actualizada con fácil acceso y protección de datos.
 
 
 
