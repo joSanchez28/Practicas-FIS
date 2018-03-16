@@ -96,7 +96,7 @@ de la salud
     - **Ecografía**: Técnica que utiliza ultrasonidos para generar imágenes bidimensionales o tridimensionales.
     - **Gastroscopia**: Observación del esófago, estómago y duodeno mediante una cámara controlable insertada en un aparato llamado gastroscopio.
     - **Colonoscopia**: Observación del intestino grueso y última parte del intestino delgado mediante el uso de colonoscopio, un tubo flexible que contiene una cámara y que además permite recogida biopsias.
-  - **Espirometría:**
-  - **Extracciones y vacunas:**
-  - **Electrocardiograma:**
-  - **Recogida de muestras (orina, frotis...):**
+  - **Espirometría:** es una prueba no invasiva que permite conocer la función pulmonar de una persona. Consiste en respirar por la boca a través de un pequeño tubo, y forzar la respiración para medir el flujo aéreo.
+  - **Extracciones y vacunas:** Extracción de sangre o inyección de una vacuna mediante una jeringuilla. La vacuna es una sustancia compuesta por una suspensión de microorganismos atenuados o muertos que se introduce en el organismo para prevenir y tratar determinadas enfermedades infecciosas; estimula la formación de anticuerpos con lo que se consigue una inmunización contra estas enfermedades.
+  - **Electrocardiograma:** Gráfico en el que se registran los movimientos del corazón y es obtenido por un electrocardiógrafo.
+  - **Recogida de muestras (orina, frotis...):**  Recogida de muestras de secrecciones corporales como orina, heces o saliva.
