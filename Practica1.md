@@ -28,7 +28,7 @@ Control de tratamientos.
 
 ## 1. Descripción general del sistema
 
-Este proyecto tiene como objetivo principal desarollar un sistema software para la gestión de un centro médico
+Este proyecto tiene como objetivo principal desarrollar un sistema software para la gestión de un centro médico
 privado. El sistema debe encargarse de la gestión de los pacientes, los distintos tipos de personal sanitario, y las
 instalaciones existentes tanto a nivel médico como administrativo (empleados, horarios, registros, citas…).
 El sistema acelerará el proceso de solicitud de servicios por parte del cliente y la organización y ejecución de los tratamientos oportunos por parte del personal sanitario. Por último facilitará un control óptimo sobre los recursos tanto humanos como técnicos.
@@ -176,51 +176,81 @@ conectándose a las páginas que éstos ofrecen.
 **RN-14.** Bunker de servidores contenedores de toda la base de datos.
 
 #### Empaquetado
-**RN-15.** El número de instalacines que se preveén ronda enterno a las 200 000.
+**RN-15.** El número de instalaciones que se preveén ronda entorno a las 200 000.
 
 #### Legales
 **RN-16.** El tiempo medio de descarga e instalación no debe superar los 7 minutos.
 
-**RN 17.** El sistema utilizara software libre en todo momento accesible para cualquier
+**RN-17.** El sistema utilizara software libre en todo momento accesible para cualquier
 usuario.
 
+**RN-18.** El software se deberá ajustar a la ley de privacidad de los datos vigente en todo momento..
+
 #### Seguridad
-**RN-18.** Determinados datos de la base de datos deben estar almacenados de tal forma
+**RN-19.** Determinados datos de la base de datos deben estar almacenados de tal forma
 que garanticen su privacidad en todo momento. Así como estará prohibido usar
 información privada para fines no autorizados.
 
 
 ### 2.3 Requisitos de información
 #### RI-1 Clientes dados de alta
-Toda la información que necesitaremos del cliente para tratarlo y gestionarlo de forma efectiva.
-Contenido: Datos de identificación del cliente(DNI, Nombre y Nº de la Seguridad social),
-información en cuanto a su estado de salud y su historial médico(enfermedades y datos de pruebas realizadas),
-médico de familia asignado(el que preferiblemente le pasará consulta),
-formas de contacto(e-mail y teléfono), cuenta bancaria y deuda con la compañía(si no ha hecho algún pago).
+Toda la información que necesitaremos del cliente para tratarlo y gestionarlo de forma efectiva.  
+Contenido: Nº de cliente, nombre, DNI, Nº de la Seguridad social, domicilio, historial médico(enfermedades diagnosticadas, pruebas realizadas, ingresos, alergias), médico de familia asignado(el que preferiblemente le pasará consulta), e-mail, teléfono, cuenta bancaria y deuda con la compañía(si no ha hecho algún pago).  
+Requisitos asociados:RF-3, RF-2, RF-5.
 #### RI-2 Empleados administrativos
-Información de los profesionales administrativos que trabajan para la compañía/hospital.
-Contenido: Sueldo, cuenta del banco, telefono y e-mail, DNI y
-nombre de su profesión.
+Información de los profesionales administrativos que trabajan para la compañía/hospital.  
+Contenido: Nombre de la profesión, sueldo, cuenta del banco, teléfono, e-mail, DNI y Nº de trabajador.
 #### RI-3 Médicos
-Información de cada uno de los médicos que trabajan para la compañía/hospital.
-Contenido: Sueldo, cuenta del banco, telefono y e-mail, DNI, especialidad, Nº de médico,
+Información de cada uno de los médicos que trabajan para la compañía/hospital.  
+Contenido: Especialidad, sueldo, cuenta del banco, teléfono, e-mail, DNI, Nº de médico,
 operaciones y consultas pendientes.
-#### RI-3 Enfermeros
-Información de cada uno de los enfermeros que trabajan para la compañía/hospital.
-Contenido: Sueldo, cuenta del banco, telefono y e-mail, DNI, planta en la que trabaja, Nº de enfermero.
-#### RI-5 Hospitales
-Información necesaria para la gestión del hospital.
-Contenido: Personal empleado en el hospital, número de camas y habitaciones (tanto el total como las disponibles),
-pacientes internados, horario de urgencias(si es que tiene), consultas y quirófanos.
-#### RI-6 Operaciones y consultas
-Información relativa a las operaciones y sus implicados.
-Contenido: Tipo de operación o consulta, Nº de médico que la realiza, DNI de paciente y Nº de quirófano o consulta.
-#### RI-7 Medicamentos
-Información sobre los medicamentos con los que se trabaja.
-Contenido:Tipo, descripción, cantidad de la que se dispone, pedidos realizados.
-#### RI-8 Proveedores
-Información sobre los distintos proveedores a los que se pueden pedir medicamentos o utensilios.
-Contenido: Productos que proveen, datos de identificación(NIF) y bancarios(Nº de cuenta) y pedidos.
+#### RI-4 Enfermeros
+Información de cada uno de los enfermeros que trabajan para la compañía/hospital.  
+Contenido: Sueldo, cuenta del banco, teléfono y e-mail, DNI, seccion en la que trabaja, Nº de enfermero.
+#### RI-5 Auxiliar
+Información de cada uno de los auxiliares que trabajan para la compañía/hospital.  
+Contenido: Sueldo, cuenta del banco, teléfono y e-mail, DNI, Nº de auxiliar.
+#### RI-6 Celador
+Información de cada uno de los celadores que trabajan para la compañía/hospital.  
+Contenido: Sueldo, cuenta del banco, teléfono y e-mail, DNI, Nº de celador.
+#### RI-7 Fisioterapeuta
+Información de cada uno de los fisioterapeutas que trabajan para la compañía/hospital.  
+Contenido: Sueldo, cuenta del banco, teléfono y e-mail, DNI, Nº de fisioterapeuta.
+#### RI-8 Personal de mantenimiento
+Información de cada uno de los empleados de mantenimiento que trabajan para la compañía/hospital.  
+Contenido: Nombre de profesión, sueldo, cuenta del banco, teléfono y e-mail, DNI, Nº de empleado.
+#### RI-9 Hospitales
+Información necesaria para la gestión del hospital.  
+Contenido: Nombre de hospital, gerente del hospital, cantidad de camas y habitaciones total y disponibles,Nº de pacientes internados, horario de urgencias(si es que tiene), Nº de consultas y quirófanos.
+#### RI-10 Operaciones y consultas
+Información relativa a las operaciones, consultas y sus implicados.  
+Contenido: Fecha determinada, tipo de operación o consulta, Nº de médico que la realiza, DNI de paciente y Nº de quirófano o consulta.  
+Requisitos asociados: RF-1.
+#### RI-11 Consultas
+Información relativa a las habitaciones en las que se hacen las consultas.  
+Contenido: Hospital, planta, Nº de consulta, horario, Nº de médico(s) asociado a esta consulta(si es que tiene alguno).  
+Requisitos asociados: RF-1.
+#### RI-12 Quirófanos
+Información relativa a los quirófanos.  
+Contenido: Hospital, planta, tipo de quirófano, Nº de quirófano.  
+Requisitos asociados: RF-1.
+#### RI-13 Ambulancias
+Información relativa a las ambulancias y vehículos de emergencia.  
+Contenido: Hospital al que pertenece, tipo de ambulancia, Nº de ambulancia, Nº de auxiliar(s) asociado a esta ambulancia(si es que tiene alguno).
+#### RI-14 Medicamentos
+Información sobre los medicamentos con los que se trabaja.  
+Contenido:Tipo, descripción, cantidad de la que se dispone, pedidos realizados.  
+Requisitos asociados: RF-2.
+#### RI-15 Proveedores
+Información sobre los distintos proveedores a los que se pueden pedir medicamentos o utensilios varios necesarios para un hospital.  
+Contenido: Nombre del proveedor, NIF, productos que proveen, Nº de cuenta y pedidos.
+#### RI-16 Pedidos
+Pedidos que se han realizado y que todavía no han llegado.  
+Contenido: Nº de pedido, fecha de entrega prevista.
+#### RI-17 Incidencias
+Información sobre los partes de incidencias que pueden ocurrir en el hospital.  
+Contenido: Hospital, empleado que la rellena, asunto, descripción de la incidencia.  
+Requisitos asociados: RF-4.
 
 
 
