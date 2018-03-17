@@ -85,7 +85,7 @@ Los usuarios del producto a desarrollar son varios: paciente, médico, enfermero
     - Rehabilitación y fisioterapia
     - Citas de enfermería
     - Citas para pruebas médicas
-    - Cirugía.
+    - Cirugía
   - El sistema permitirá una gestión de las citas existentes permitiendo anularlas, aplazarlas o modificar cualquiera de sus datos.
   - El sistema debe permitir la solicitud de citas.
   - El sistema debe permitir la creación de nuevas citas a partir de una solicitud.
@@ -124,7 +124,7 @@ Los usuarios del producto a desarrollar son varios: paciente, médico, enfermero
 ### 2.2 Requisitos no funcionales
 #### Usabilidad
 **RN-1.** Se deberá proporcionar ayuda en línea para que el usuario en todo momento
-sepa que debe de hacer para conseguir su objetivo (obtener una cita,etc)
+sepa que debe de hacer para conseguir su objetivo (obtener una cita,etc).
 
 **RN-2.** Ya que para acceder se necesitará estar registrado deben aparecer avisos,
 recomendaciones... para que el paciente no olvide su cita, recordar plazos de pago,
@@ -184,7 +184,7 @@ conectándose a las páginas que éstos ofrecen.
 **RN-17.** El sistema utilizara software libre en todo momento accesible para cualquier
 usuario.
 
-**RN-18.** El software se deberá ajustar a la ley de privacidad de los datos vigente en todo momento..
+**RN-18.** El software se deberá ajustar a la ley de privacidad de los datos vigente en todo momento.
 
 #### Seguridad
 **RN-19.** Determinados datos de la base de datos deben estar almacenados de tal forma
