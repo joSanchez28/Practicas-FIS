@@ -166,7 +166,7 @@ desde los mas básicos hasta los mas complejos.
 mantenerlo renovado y evitar o solucionar posibles fallos.
 
 #### Implementación
-**RN-12.** Se deberá usar el lenguaje Java compatible con jsdk1.4.2 y SQL (Oracle) para
+**RN-12.** Se deberá usar el lenguaje Java compatible con jsdk1.4.2 y SQL para
 la base de datos.
 
 **RN-13.** El sistema deberá interactuar y recoger datos de los proveedores vía Internet,
