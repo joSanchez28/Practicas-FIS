@@ -1,0 +1,1 @@
+- Recopilación de la información sobre la salud de una persona lo cual permite manejar y darle seguimiento a su propia información de salud.
