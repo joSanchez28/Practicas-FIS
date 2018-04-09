@@ -1,1 +1,3 @@
-- Recopilación de la información sobre la salud de una persona lo cual permite manejar y darle seguimiento a su propia información de salud.
+-Historial Clínico: Recopilación de la información sobre la salud de una persona lo cual permite manejar y darle seguimiento a su propia información de salud.
+-Consulta: Local en que el médico o personal sanitario recibe y atiende a sus pacientes.
+-Dar de Alta a un paciente: Se produce cuando se crea, a un potencial paciente, un historial del paciente por parte de un médico(o personal sanitario). Se entiende que al dar de alta a un paciente se le crea automáticamente una cuenta en el sistema aunque no la use.
