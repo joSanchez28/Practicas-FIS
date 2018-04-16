@@ -2,3 +2,5 @@
 - Consulta: Local en que el médico o personal sanitario recibe y atiende a sus pacientes.
 - Dar de Alta a un paciente: Se produce cuando se crea, a un potencial paciente, un historial del paciente por parte de un médico(o personal sanitario). Se entiende que al dar de alta a un paciente se le crea automáticamente una cuenta en el sistema aunque no la use.
 - Dar de Baja a un paciente: Se produce cuando el cliente así lo desea, se produce una situación de impago o bien por defunción del cliente. Cuando se da de baja a un paciente se eliminan sus datos del sistema menos, si se desea, el historial clínico.
+- Cura: Tratamientos destinados a la sanación de heridas tales como quemaduras, escaras o úlceras.
+- Exploración: Obtención de datos provenientes del paciente mediante diferentes aparatos físicos.
