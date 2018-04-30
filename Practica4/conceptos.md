@@ -1,0 +1,29 @@
+Actores:
+- Compañía médica
+- Sistema de avisos
+- Visitante
+- Usuario
+- Paciente
+- Personal
+- Administrativo
+- Sanitario
+- Enfermero
+- Médico
+- Centro médico
+- Especialista
+
+- Consulta
+- Historial clínico
+- Dato clínico (atributo de historial clínico)
+- Exploración !!!
+- Cura !!!
+- Receta
+- Medicamento
+- Tratamiento
+- Prueba médica
+- Horario (atributo de personal o consulta)
+- Contrato
+- Recurso (salas y maquinaria)
+- Valoración
+- Resultados prueba
+- Cita
